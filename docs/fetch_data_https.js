@@ -19,7 +19,7 @@ function appendData(data){
     var mainContainer = document.getElementById("myData");
     for(var i=0; i<data.length; i++){
         var div = document.createElement("div");
-        div.innerHTML =  '<li><div><time>' + data[i].date + '</time>' + data[i].text+'</div></li>';
-        mainContainer.appendChild(div);
+        mainContainer.innerHTML +=  '<li class="in-view"><div><time>' + data[i].date + '</time>' + data[i].text+'</div></li>';
+        // mainContainer.appendChild(div);
     }
 }
