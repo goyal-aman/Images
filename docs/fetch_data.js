@@ -1,4 +1,6 @@
-let url = 'http://127.0.0.1:8000/'
+// custom open source api to get my cards data.
+let url = 'http://goyalaman.pythonanywhere.com/'
+
 fetch(url)
     .then(function (response) {
         // The JSON data will arrive here
