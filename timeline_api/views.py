@@ -11,7 +11,7 @@ class CardList(
     """
     APIView : return json response of all card objects
     """
-    queryset = Card.objects.all().order_by('-pk')
+    queryset = Card.objects.all().order_by('-date')
     serializer_class  = CardSerializer 
 
     def get(self, request, *args, **kwargs):
