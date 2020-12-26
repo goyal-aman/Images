@@ -7,7 +7,7 @@
 }
 
 body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  font: normal 25px/1.5 "Helvetica Neue", sans-sarif;
   background: #353D5B;
   color: #fff;
   overflow-x: hidden;
@@ -109,8 +109,7 @@ time {
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-
-.timeline ul li::after {
+ .timeline ul li::after {
   transition: background .5s ease-in-out;
 }
 
@@ -137,7 +136,7 @@ time {
   visibility: visible;
   opacity: 1;
 }
-  
+ 
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
