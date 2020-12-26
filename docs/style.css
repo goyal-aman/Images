@@ -80,22 +80,26 @@ h1 {
 
 .timeline ul li:nth-child(odd) div {
   left: 45px;
+  text-align: left;
 }
 
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #14B2B5 transparent transparent;
+  text-align: right;
 }
 
 .timeline ul li:nth-child(even) div {
   left: -439px;
+  text-align: right;
 }
 
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #14B2B5;
+  text-align: right;
 }
 
 time {
