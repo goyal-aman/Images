@@ -13,10 +13,11 @@ fetch(url)
     });
 
 function appendData(data){
+    // TODO: improve this method 
     var mainContainer = document.getElementById("myData");
     for(var i=0; i<data.length; i++){
         var div = document.createElement("div");
-        div.innerHTML = 'Name: ' + data[i].text +  ' ';
+        div.innerHTML =  '<li><div><time>' + data[i].date + '</time>' + data[i].text+'</div></li>';
         mainContainer.appendChild(div);
     }
 }
