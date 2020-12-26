@@ -1,5 +1,4 @@
 from rest_framework import mixins, generics
-
 # local import
 from timeline.models import Card 
 from timeline_api.serializers import CardSerializer
@@ -12,7 +11,7 @@ class CardList(
     """
     APIView : return json response of all card objects
     """
-    queryset = Card.objects.all()
+    queryset = Card.objects.all().order_by('-pk')
     serializer_class  = CardSerializer 
 
     def get(self, request, *args, **kwargs):
