@@ -1,5 +1,5 @@
 // custom open source api to get my cards data.
-let url = 'http://goyalaman.pythonanywhere.com/'
+let url = 'https://goyalaman.pythonanywhere.com/'
 
 fetch(url)
     .then(function (response) {
